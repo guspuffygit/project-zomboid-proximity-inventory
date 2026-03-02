@@ -1,5 +1,5 @@
 name=Proximity Inventory B42
-id=ProximityInventory
+id=proximity-inventory-b42
 description=B42 proximity inventory that brings back the context menu right click
 poster=poster.png
 icon=icon.png
