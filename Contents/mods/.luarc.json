@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime.version": "Lua 5.1",
+  "runtime.path": [
+    "*/42/media/lua/client/?.lua",
+    "*/42/media/lua/server/?.lua",
+    "*/42/media/lua/shared/?.lua"
+  ],
+  "workspace.library": [
+    "/home/guspuffy/projects/project-zomboid-base/src/main/lua/client",
+    "/home/guspuffy/projects/project-zomboid-base/src/main/lua/shared",
+    "/home/guspuffy/projects/project-zomboid-base/src/main/lua/server",
+    "/home/guspuffy/projects/project-zomboid-base/src/main/lua/stubs",
+    "/home/guspuffy/projects/project-zomboid-storm/src/main/resources/lua/stubs"
+  ],
+  "workspace.maxPreload": 5000,
+  "workspace.preloadFileSize": 1000,
+  "diagnostics.severity": {
+    "undefined-global": "Warning"
+  },
+  "runtime.plugin": "${workspaceFolder}/pz-derive-plugin.lua",
+  "type.castNumberToInteger": true,
+  "type.weakUnionCheck": false,
+  "type.weakNilCheck": false
+}

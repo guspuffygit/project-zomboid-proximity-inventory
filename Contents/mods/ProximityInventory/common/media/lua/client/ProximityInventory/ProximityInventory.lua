@@ -54,8 +54,10 @@ function ProximityInventory.CanBeAdded(container, playerObj)
   end
 
   -- Don't allow to see inside containers locked to you, for MP
-  if object and instanceof(object, "IsoThumpable") and object:isLockedToCharacter(playerObj) then
-    return false
+  if object and instanceof(object, "IsoThumpable") then
+    if object:isLockedToCharacter(playerObj) then
+      return false
+    end
   end
 
   return true
