@@ -1,6 +1,10 @@
 version=1
 id=3676859976
 title=Proximity Inventory B42
-description=B42 proximity inventory that brings back the context menu right click
+description=B42 proximity inventory that brings back the context menu right click.
+description=
+description=Updated for 42.15.0
+description=
+description=Includes CN and ES languages translated via Claude
 tags=Build 42
 visibility=public
