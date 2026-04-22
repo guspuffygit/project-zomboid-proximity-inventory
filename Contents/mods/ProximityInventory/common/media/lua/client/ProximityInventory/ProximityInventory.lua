@@ -131,6 +131,9 @@ function ProximityInventory.OnButtonsAdded(invSelf)
     if ProximityInventory.CanBeAdded(invToAdd, playerObj) then
       local items = invToAdd:getItems()
       proximityButtonRef.inventory:getItems():addAll(items)
+
+      invToAdd:setExplored(true)
+      invToAdd:setHasBeenLooted(true)
     end
   end
 end
